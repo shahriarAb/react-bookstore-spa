@@ -1,9 +1,12 @@
 import './App.css';
+import Books from './components/Books/Books';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
-      <h2>Hi there!!!!! <i class="far fa-star"></i></h2>
+      <Header />
+      <Books />
     </div>
   );
 }
