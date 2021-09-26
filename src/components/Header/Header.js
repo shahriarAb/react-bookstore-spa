@@ -38,13 +38,12 @@ const Header = () => {
             </nav>
             <div className="container text-center bg-info p-2 border border-top-0 border-3 border-success rounded-bottom">
                 <h1>Favourite BookStore <i className="fas fa-book"></i></h1>
-                <p>A place where you get best books with decent price</p>
+                <p>A place where you get all the information about your favourite books</p>
                 <div className="text-end me-5">
                     <div className="d-inline-block text-center bg-secondary border border-2 border-dark rounded-3 p-1">
-                        <p className="fw-bold fs-4 text-white">Blanace: 1200/-</p>
+                        <p className="fw-bold fs-4 text-white">Target: 700M</p>
                     </div>
                 </div>
-
             </div>
         </>
     );

@@ -5,7 +5,7 @@
         "author": "J. R. R. Tolkien",
         "genre": "High fantasy, Adventure",
         "publishYear": 1968,
-        "price": 1798,
+        "copiesSold": 150,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif/220px-First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif",
         "rating": 5
     },
@@ -15,7 +15,7 @@
         "author": "Paulo Coelho",
         "genre": "Quest, adventure, fantasy",
         "publishYear": 1988,
-        "price": 630,
+        "copiesSold": 155,
         "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0tgvYN4QHjHQDige5hIX2HkIe5hLSgwDr5zrn2Vd1-bchhyIM",
         "rating": 5
     },
@@ -25,7 +25,7 @@
         "author": "J. R. R. Tolkien",
         "genre": "High fantasy, Juvenile fantasy",
         "publishYear": 1937,
-        "price": 718,
+        "copiesSold": 105,
         "img": "https://images-na.ssl-images-amazon.com/images/I/51eHyfIe+mL._SX324_BO1,204,203,200_.jpg",
         "rating": 4
     },
@@ -35,7 +35,7 @@
         "author": "Dan Brown",
         "genre": "Mystery, Detective fiction, Conspiracy fiction, Thriller",
         "publishYear": 2003,
-        "price": 450,
+        "copiesSold": 80,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/DaVinciCode.jpg/220px-DaVinciCode.jpg",
         "rating": 4
     },
@@ -45,7 +45,7 @@
         "author": "Antoine de Saint-Exupéry",
         "genre": "Childrens Book, Fairy Tale",
         "publishYear": 1937,
-        "price": 180,
+        "copiesSold": 200,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Littleprince.JPG/220px-Littleprince.JPG",
         "rating": 4
     },
@@ -55,7 +55,7 @@
         "author": "C. S. Lewis",
         "genre": "Childrens fantasy, Christian literature",
         "publishYear": 1950,
-        "price": 555,
+        "copiesSold": 85,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/TheLionWitchWardrobe%281stEd%29.jpg/220px-TheLionWitchWardrobe%281stEd%29.jpg",
         "rating": 4
     },
@@ -65,7 +65,7 @@
         "author": "J. D. Salinger",
         "genre": "Realistic fiction, Coming-of-age fiction",
         "publishYear": 1951,
-        "price": 625,
+        "copiesSold": 65,
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/220px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
         "rating": 4
     },
@@ -75,7 +75,7 @@
         "author": "H. Rider Haggard",
         "genre": "Fantasy, adventure, romance, Gothic",
         "publishYear": 1887,
-        "price": 750,
+        "copiesSold": 83,
         "img": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/6044/9781604442939.jpg",
         "rating": 4
     },
@@ -85,7 +85,7 @@
         "author": "Miguel de Cervantes",
         "genre": "novle",
         "publishYear": 1605,
-        "price": 818,
+        "copiesSold": 500,
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/250px-Title_page_first_edition_Don_Quijote.jpg",
         "rating": 4
     },
@@ -95,7 +95,7 @@
         "author": "J. K. Rowling",
         "genre": "Fantasy",
         "publishYear": 2005,
-        "price": 515,
+        "copiesSold": 65,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Harry_Potter_and_the_Half-Blood_Prince_cover.png/220px-Harry_Potter_and_the_Half-Blood_Prince_cover.png",
         "rating": 5
     },
@@ -105,7 +105,7 @@
         "author": "E. B. White",
         "genre": "Childrens",
         "publishYear": 1952,
-        "price": 619,
+        "copiesSold": 45,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/CharlotteWeb.png/220px-CharlotteWeb.png",
         "rating": 4
     },
@@ -115,7 +115,7 @@
         "author": "Dan Brown",
         "genre": "Mystry-thriller",
         "publishYear": 2000,
-        "price": 528,
+        "copiesSold": 50,
         "img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/AngelsAndDemons.jpg/220px-AngelsAndDemons.jpg",
         "rating": 4
     },
@@ -125,7 +125,7 @@
         "author": "J. P. Donleavy",
         "genre": "Novel",
         "publishYear": 1955,
-        "price": 499,
+        "copiesSold": 45,
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348768755l/127020.jpg",
         "rating": 3
     },
@@ -135,7 +135,7 @@
         "author": "Anne Frank",
         "genre": "Autobiography",
         "publishYear": 1947,
-        "price": 450,
+        "copiesSold": 40,
         "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560816565l/48855.jpg",
         "rating": 4
     }

@@ -1,13 +1,15 @@
 import React from 'react';
 
 const Cart = (props) => {
+    //get data from Books.js via props
     const { cart } = props;
-    const totalPrice = cart.reduce((accumulator, current) => accumulator + current.price, 0);
+    // this function is used for calculate total price
+    const totalSold = cart.reduce((accumulator, current) => accumulator + current.copiesSold, 0);
 
     return (
         <div className="text-center mt-3">
             <h4>Books Added: <span className="fw-bold">{cart.length}</span></h4>
-            <h3>Total Cost: <span className="fw-bold">{totalPrice}</span>/-</h3>
+            <h3>Total Sold: <span className="fw-bold">{totalSold}</span>M</h3>
             <ul style={{ listStyle: 'none' }}>
                 {
                     cart.map(bookName => <li
@@ -16,7 +18,7 @@ const Cart = (props) => {
                     >{bookName.name}</li>)
                 }
             </ul>
-            <button className="btn btn-outline-info fw-bold"><i class="fas fa-credit-card"></i> Go to Payment</button>
+            <button className="btn btn-outline-info fw-bold"><i className="fas fa-shopping-bag"></i> Buy Books Now</button>
         </div>
     );
 };

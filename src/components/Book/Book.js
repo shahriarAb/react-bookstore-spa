@@ -3,7 +3,8 @@ import Rating from 'react-rating';
 import './Book.css'
 
 const Book = (props) => {
-    const { name, author, publishYear, genre, price, img, rating } = props.book;
+    // destructuring data from Books.js via props
+    const { name, author, publishYear, genre, copiesSold, img, rating } = props.book;
 
     return (
         <div className="col">
@@ -12,11 +13,12 @@ const Book = (props) => {
                     <img src={img} className="border border-3 border-dark" alt="..." />
                 </div>
                 <div className="card-body">
-                    <h5 className="card-title text-center">{name}</h5>
+                    <h5 className="card-title text-center fw-bolder">{name}</h5>
                     <p>Author: <b>{author}</b></p>
                     <p>Publish Year: <b>{publishYear}</b></p>
                     <p>Genre: <b>{genre}</b></p>
-                    <p className="d-inline-block me-5">Price: <b>{price}</b></p>
+                    <p>Copies Sold: <b>{copiesSold}M</b></p>
+                    <p className="d-inline-block">Rating: </p>
                     <Rating
                         initialRating={rating}
                         emptySymbol="far fa-star text-secondary"
