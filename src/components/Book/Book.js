@@ -1,8 +1,9 @@
 import React from 'react';
+import Rating from 'react-rating';
 import './Book.css'
 
 const Book = (props) => {
-    const { name, author, publishYear, genre, price, img } = props.book;
+    const { name, author, publishYear, genre, price, img, rating } = props.book;
 
     return (
         <div className="col">
@@ -15,7 +16,13 @@ const Book = (props) => {
                     <p>Author: <b>{author}</b></p>
                     <p>Publish Year: <b>{publishYear}</b></p>
                     <p>Genre: <b>{genre}</b></p>
-                    <p>Price: <b>{price}</b></p>
+                    <p className="d-inline-block me-5">Price: <b>{price}</b></p>
+                    <Rating
+                        initialRating={rating}
+                        emptySymbol="far fa-star text-secondary"
+                        fullSymbol="fas fa-star text-warning"
+                        readonly
+                    ></Rating>
                     <div className="text-center mt-3">
                         <button
                             className="cart-btn"

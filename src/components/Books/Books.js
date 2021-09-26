@@ -34,9 +34,6 @@ const Books = () => {
                 </div>
                 <div className="col-lg-3 col-md-5 border-start">
                     <div className="sticky-top">
-                        <div className="text-center bg-info rounded-3 mt-3 p-3">
-                            <p className="fw-bold fs-5">Total Blanace: 1200/-</p>
-                        </div>
                         <Cart cart={cart}></Cart>
                     </div>
                 </div>

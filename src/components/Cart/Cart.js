@@ -16,7 +16,7 @@ const Cart = (props) => {
                     >{bookName.name}</li>)
                 }
             </ul>
-            <button className="btn btn-outline-info fw-bold">Go to Payment Page</button>
+            <button className="btn btn-outline-info fw-bold"><i class="fas fa-credit-card"></i> Go to Payment</button>
         </div>
     );
 };
